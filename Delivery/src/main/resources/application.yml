@@ -31,12 +31,12 @@ spring:
         event-in:
           group: Delivery
 #<<< EDA / Topic Name
-          destination: long
+          destination: longttt
 #>>> EDA / Topic Name
           contentType: application/json
         event-out:
 #<<< EDA / Topic Name
-          destination: long
+          destination: longttt
 #>>> EDA / Topic Name
           contentType: application/json
 
@@ -79,10 +79,10 @@ spring:
       bindings:
         event-in:
           group: Delivery
-          destination: long
+          destination: longttt
           contentType: application/json
         event-out:
-          destination: long
+          destination: longttt
           contentType: application/json
 
 api:

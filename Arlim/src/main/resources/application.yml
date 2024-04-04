@@ -31,12 +31,12 @@ spring:
         event-in:
           group: Arlim
 #<<< EDA / Topic Name
-          destination: long
+          destination: longttt
 #>>> EDA / Topic Name
           contentType: application/json
         event-out:
 #<<< EDA / Topic Name
-          destination: long
+          destination: longttt
 #>>> EDA / Topic Name
           contentType: application/json
 
@@ -75,10 +75,10 @@ spring:
       bindings:
         event-in:
           group: Arlim
-          destination: long
+          destination: longttt
           contentType: application/json
         event-out:
-          destination: long
+          destination: longttt
           contentType: application/json
 
 
