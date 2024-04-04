@@ -11,6 +11,7 @@ public class FreightHateoasProcessor implements RepresentationModelProcessor<Ent
 
     @Override
     public EntityModel<Freight> process(EntityModel<Freight> model) {
+        model.add(Link.of(model.getRequiredLink("self").getHref() + "/").withRel(""));
         model.add(Link.of(model.getRequiredLink("self").getHref() + "/selectfreight").withRel("selectfreight"));
 
         
